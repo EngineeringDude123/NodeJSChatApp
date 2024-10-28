@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  snake:
+    image: "johncoll/nodejs_2024"
+    environment: 
+      - "PORT:3700"
+    ports:
+      - "80:3700"
+    volumes:
+      - ./:/app
