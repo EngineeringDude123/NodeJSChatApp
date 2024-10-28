@@ -1,2 +1,0 @@
-# NodeJSChatApp
-chat app
