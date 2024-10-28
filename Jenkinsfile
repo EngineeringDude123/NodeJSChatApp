@@ -1,4 +1,4 @@
-node ('New-Appserver') 
+node ('Ubuntu-Appserver-3120') 
 {
 	def app	
 	stage('CLONE GIT REPOSITORY')
@@ -19,7 +19,7 @@ node ('New-Appserver')
 	
 	stage ('BUILD-AND-TAG')
 	{
-		app = docker.build("johncollegeacc769/nodejs_2024")
+		app = docker.build("johncoll/nodejs_2024")
 	}
 
 
